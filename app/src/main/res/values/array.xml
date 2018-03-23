@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="interval_options">
+        <item>1小时</item>
+        <item>6小时</item>
+        <item>12小时</item>
+        <item>24小时</item>
+    </string-array>
+    <string-array name="interval_option_values">
+        <item>1</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+</resources>

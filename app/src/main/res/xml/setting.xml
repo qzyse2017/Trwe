@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="你的设置"
+    android:key="update_option_preference"
+    android:summary="设置更新选项">
+    <CheckBoxPreference
+        android:key="check_auto_update"
+        android:title="自动更新"
+        android:summary="设定是否自动更新天气状况"
+        android:defaultValue="true"/>
+    <ListPreference
+        android:title="自动更新间隔时间"
+        android:key="interval_time"
+        android:summary="选择自动更新间隔时间"
+        android:entries="@array/interval_options"
+        android:entryValues="@array/interval_option_values"
+        android:dialogTitle="间隔时间"
+        android:defaultValue="6"/>
+</PreferenceScreen>

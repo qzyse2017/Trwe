@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding="utf-8"?>
+    <litepal>
+    <dbname value="Trace_Weather"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.TrWea.android.db.Area"/>
+        <mapping calss="com.TrWea.android.db.WeatherLog"/>
+    </list>
+</litepal>
