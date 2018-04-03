@@ -9,12 +9,13 @@ _Thanks for heweather([和风天气](https://www.heweather.com/products/weather-
 - To comiple it, the IDE can easily done that for you. You can also build your own tool chains(See [Gradle](https://gradle.org/)). 
 
 ## TODO
-- [x]setting automatically update time
-- [x]choose city
-- [x]pull to refresh
+- [x] setting automatically update time
+- [x] choose city
+- [x] pull to refresh
 
 ## Effect
 When running, it looks just as the follows
 ![Index Screenshot](images/index.png)
 ![Setting Screenshot](images/setting.png)
+
 
